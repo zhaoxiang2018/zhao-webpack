@@ -1,0 +1,11 @@
+
+#index{
+	width: 2rem;
+	height: 2rem;
+	border: 1px solid red;
+	background-image: url('../../static/dsds.jpg');
+	font-size: 0.2rem;
+}
+.artClass{
+	color: red;
+}

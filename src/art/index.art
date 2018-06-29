@@ -1,0 +1,17 @@
+
+{{include './header.art'}}
+<h2 class="artClass">Hello art-template!!!</h2>
+<ul>
+	{{each list}}
+		{{if $value.num == 1}}
+			<li>
+				{{$index}}:{{$value.name}}
+				<h3>{{$value.code}}</h3>
+			</li>
+			{{else}}
+				<li>
+					<p>{{$index}}:error!!</p>
+				</li>
+		{{/if}}
+	{{/each}}
+</ul>
